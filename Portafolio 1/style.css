@@ -2,6 +2,7 @@
     --bg: #121212;
     --text: #e0e0e0;
     --accent: #f14d0c; /* azul verdoso suave #4db6ac*/
+    --subtitulo:#4db6ac;
     --font-main: 'Orbitron', sans-serif;
   }
   
@@ -56,9 +57,9 @@
     text-align: center;
     background-color: #181818;
     padding: 2rem;
-  }
-  
-  #welcome-section h1 {
+   }
+
+#welcome-section h1 {
     font-size: 2.5rem;
     font-weight: bold;
   }
@@ -93,6 +94,7 @@
   .project-tile:hover {
     opacity: 0.7;
     transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   }
   
   .project-tile img {
@@ -103,7 +105,7 @@
   .project-tile p {
     padding: 1rem;
     font-weight: bold;
-    color: var(--accent);
+    color: var(--subtitulo);
     text-align: center;
   }
   .project-tile a{
@@ -128,7 +130,7 @@
     padding: 0.75rem 1.5rem;
     background: transparent;
     border: 2px solid var(--accent);
-    color: var(--accent);
+    color: var(--subtitulo);
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
